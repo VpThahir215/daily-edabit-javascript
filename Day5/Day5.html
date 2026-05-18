@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+let arr=[];
+let num1=prompt("Enter first number");
+let num2=prompt("Enter second number");
+let num3=prompt("Enter third number");
+let num4=prompt("Enter fourth number");
+let num5=prompt("Enter fifth number");
+arr.push(num1); 
+arr.push(num2);
+arr.push(num3);
+arr.push(num4);
+arr.push(num5); 
+document.write(arr);
+
+let smallest=arr[0]
+for(let i=0;i<arr.length;i++){
+if(arr[i]<=smallest ){
+smallest=arr[i];
+}
+
+
+}
+document.write("<br>"+smallest+" Is the smallest number");
+
+</script>
+
+</body>
+</html>
