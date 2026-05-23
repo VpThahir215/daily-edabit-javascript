@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script >
+
+
+      let hedd=document.createElement("h1");
+
+  hedd.innerHTML="Hello";
+  document.body.appendChild(hedd);
+let btn=document.createElement("button");
+btn.innerHTML="Click"
+document.body.appendChild(btn)
+btn.addEventListener("click",function(){
+
+  hedd.style.fontSize="100px"
+
+
+
+})
+  let a=prompt("Entere a number")
+   let b=prompt("Entere a number")
+    let c=prompt("Entere a number")
+  document.write("<br> You entered number is"+ a +"<br>"+b +"<br>"+c +"<br>");
+  if(a>b && a>c){
+    document.write(a +" iS greaterthan number")
+  } else if(b>a && b>c){
+ document.write(b +"  iS greaterthan number ")
+  }else{
+
+     document.write(c+ "  iS greaterthan number ")
+  }
+
+
+    </script>
+</body>
+</html>
